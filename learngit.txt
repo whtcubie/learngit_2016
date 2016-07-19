@@ -17,4 +17,8 @@ $ git status				命令掌握仓库当前的状态
 $ git diff					顾名思义就是查看difference
 $ git reset --hard HEAD^ 	回退到上一个版本	
 $ git reset --hard 3628164  指定回到未来的某个版本
-$ git reflog					用来记录每一次命令
+$ git reflog				用来记录每一次命令
+丢弃工作区的修改
+1.修改后还没有被放到暂存区，现在，撤销修改就回到和版本库一模一样的状态；
+2.已经添加到暂存区后，又作了修改，现在，撤销修改就回到添加到暂存区后的状态。
+$ git checkout -- readme.txt 
