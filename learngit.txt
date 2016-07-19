@@ -1,0 +1,18 @@
+Git使用命令的简单教程：
+
+安装过程：
+$ sudo apt-get install git
+$ git config --global user.name "whtcubie"
+$ git config --global user.email "916997150@qq.com"
+$ mkdir learngit
+$ cd learngit
+$ git init
+
+第一步，用命令git add告诉Git，把文件添加到仓库：
+$ git add readme.txt
+
+第二步，用命令git commit告诉Git，把文件提交到仓库：
+$ git commit -m "wrote a readme file"
+
+$ git status命令掌握仓库当前的状态
+$ git diff顾名思义就是查看difference
