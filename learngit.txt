@@ -6,7 +6,7 @@ $ git config --global user.name "whtcubie"
 $ git config --global user.email "916997150@qq.com"
 $ mkdir learngit
 $ cd learngit
-$ git init
+$ git init  初始化本地库，生成.git文件，ls -ah可以查看
 
 第一步，用命令git add告诉Git，把文件添加到仓库：
 $ git add readme.txt
@@ -14,7 +14,8 @@ $ git add readme.txt
 第二步，用命令git commit告诉Git，把文件提交到仓库：
 $ git commit -m "wrote a readme file"
 $ git status				命令掌握仓库当前的状态
-$ git diff					顾名思义就是查看difference
+$ git diff					顾名思义就是查看difference 本地库和远端对比
+$ git log 					查看commit等log历史记录
 $ git reset --hard HEAD^ 	回退到上一个版本	
 $ git reset --hard 3628164  指定回到未来的某个版本
 $ git reflog				用来记录每一次命令
