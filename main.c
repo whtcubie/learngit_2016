@@ -3,6 +3,6 @@
 int main()
 {	
   printf("just for wuhaitian at topwise");
-  fuck you mather
+  sorry ,this is my mistake!
   return 0;
 }
