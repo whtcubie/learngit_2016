@@ -8,4 +8,4 @@ Creating a new branch is quick and simple.
 Git checkout devlop is just for test
 Git is a free software ..
 Git also have amswer!
-try to learn add
+try to commit
